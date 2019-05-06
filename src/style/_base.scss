@@ -1,0 +1,24 @@
+@import 'vars';
+
+html {
+  font-size: $size-browser-default;
+}
+
+body {
+  font-size: $size-body;
+  background: $color-background;
+  font-family: sans-serif;
+  color: $color-font;
+}
+
+a {
+  color: $color-font;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: $size-h1;
+}
